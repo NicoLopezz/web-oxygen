@@ -1,0 +1,184 @@
+{
+  "Layout": {
+    "prevTitle": "Paremos la deforestación",
+    "prevButton": "Parar",
+    "title": "Invertí a favor del ambiente",
+    "subtitle-1": "Protegemos árboles de ser talados y conservamos ",
+    "subtitle-2": "ecosistemas",
+    "button": "Comenzá",
+    "data-content-1": "hectareas",
+    "data-content-11": "de bosque",
+    "data-content-2": "estadios",
+    "data-content-21": "de fútbol",
+    "data-content-3": "tn CO₂",
+    "data-content-31": "compensadas",
+    "data-content-1-mobile": "hectareas de bosque",
+    "data-content-2-mobile": "estadios de fútbol",
+    "data-content-3-mobile": "tn CO2 compensadas"
+  },
+
+  "Services": {
+    "title": "SERVICIOS",
+    "subtitle-1": "CONSERVÁ LOS",
+    "subtitle-2": "TERRITORIOS NATIVOS",
+    "text": "Los bosques nativos son uno de los principales productores de oxígeno, son esenciales para nosotros y todos los seres vivos del planeta. Por esto, debemos proteger los territorios nativos de ser deforestados.",
+    "service-card-1-title": "Medí",
+    "service-card-1-text": "Conocé tu impacto ambiental. Utilizá la calculadora y descubrí tus emisiones de CO2",
+    "service-card-2-title": "Compensá",
+    "service-card-2-text": "Tu compra garantiza la protección del bosque. Salvá a los árboles de ser talados y a la fauna de ser desplazada",
+    "service-card-2-link": "/",
+    "service-card-3-title": "Monitoreá",
+    "service-card-3-text": "Visualizá la cantidad de árboles y especies salvadas, y cuánto CO2 absorbió tu inversión en un año.",
+    "service-card-3-link": "/",
+    "see-more-btn": "Ver más "
+  },
+
+  "issuedTokens": {
+    "title": "TOKENS EMITIDOS",
+    "subtitle-1": "LOS ÁRBOLES SON LA MEJOR TECNOLOGÍA",
+    "subtitle-2": "PARA DETENER EL CAMBIO CLIMÁTICO",
+    "issued-token-1-title": "¿Qué es un token?",
+    "issued-token-1-text": "Es una moneda virtual que representa un activo o una utilidad comercializable. Se almacena en una billetera digital y permite al titular usarlo para fines de inversión o económicos",
+    "issued-token-2-title": "Token OM",
+    "issued-token-2-text": "Éste token es una certificación digital de 1 m2 de bosque nativo. Con tu compra, estás protegiendo el bosque para siempre",
+    "issued-token-3-title": "Token OC",
+    "issued-token-3-text": "Día a día, los árboles absorbe el carbono de la atmósfera que emitimos como humanos. Medimos cuánto carbono absorbe tu (OM) y te entregamos este token (OC) como certificación digital de Bonos de Carbono"
+  },
+
+  "homeTokens": {
+    "progress-subtitle": "BONOS DE CARBONO",
+    "progress-title": "SEAMOS PARTÍCIPES DEL CAMBIO",
+    "progress-circle": "Hectáreas protegidas",
+    "progress-text": "Ser transparentes es uno de los aspectos que más valoramos en nuestra compañía. A través de este contador podemos ver nuestro progreso hacia un planeta mejor!",
+    "progress-span": "NUESTRO OBJETIVO",
+    "progress-span-2": "hectareas"
+  },
+
+  "videoIntro": {
+    "title": "NUESTRO MANIFIESTO",
+    "subtitle-1": "CONVERTITE EN CARBONO",
+    "subtitle-2": "NEUTRAL, USA ",
+    "subtitle-3": "OXYGEN",
+    "text": "Queremos cambiar el esquema de donaciones convencional y así, poder salvar los bosques nativos. ¡Abrimos el mercado para una valoración internacional de terrenos de bosque nativo!"
+  },
+
+  "partnerships": {
+    "title": "ALIANZAS"
+  },
+
+  "phrase": {
+    "text": "La crisis climática esta causada por nosotros y las soluciones deben venir de nosotros. Tenemos las herramientas: la tecnología está de nuestro lado",
+    "comment": "- Antonio Guterres, Secretario General de la ONU",
+    "button": "Comenzar"
+  },
+
+  "Navbar": {
+    "home": "Home",
+    "us": "Nosotros",
+    "project": "Proyectos",
+    "buy": "Comprar",
+    "login": "Iniciar sesión",
+    "waitlist": "Unirse a la lista de espera"
+  },
+
+  "Footer": {
+    "company": "Empresa",
+    "us-link": "Nosotros",
+    "projects-link": "Proyectos",
+    "contact-link": "Contacto",
+    "joinus-link": "Unite",
+    "news": "Suscribite a nuestro newsletter",
+    "news-button": "Enviar"
+  },
+
+  "AboutUs": {
+    "title": "Ésto es Oxygen.",
+    "mision-title": "Nuestra misión",
+    "vision-title": "Nuestra visión",
+    "mision-text": " Preservar ecosistemas y sus especies en peligro de extinción, ayudar al desarrollo económico de comunidades locales y lograr una valoración internacional de los bosques nativos.",
+    "vision-text": " Guiados por los ejes de sustentabilidad de la ONU queremos convertir a las empresas e individuos del mundo en verdes. El cambio es posible pero hay que actuar ahora. Acompañanos en este camino!",
+    "team-title-1": "NUESTRO EQUIPO",
+    "team-title-2": "OXYGEN TEAM",
+    "joinus-title": "¡UNITE A OXYGEN PARA SER PARTE DEL CAMBIO!",
+    "tokenomics-title": "Distribución de ingresos"
+  },
+
+  "Project": {
+    "title-1": "Descubrí los bosques",
+    "title-2": "que estamos salvando",
+    "map-title-1": "NUESTROS PROYECTOS",
+    "map-title-2": "CONOCÉ LAS ÁREAS QUE PROTEGEMOS",
+    "button-projects": "Explorar",
+    "see-map": "Ver mapa",
+    "laFlorencia-text": "La Florencia está dividida en dos estancias la parte este y la parte oeste Juntas suman una superficie de cerca de 90.000 hectáreas en las que encontramos ambientes de bosque, humedades, zonas de arenal entre otros. Cabe destacar la presencia confirmada del yaguarete, el yurumi u oso hormiguero, el pecari de collar y muchas otras especies de animales y plantas. Es un territorio clave para la supervivencia del yaguarete ( quedan entre 200 y 250 en estado silvestre y solo 20 en el gran chaco argentino. Se destaca por su cercanía con el parque nacional Impenetrable, actuando como corredor biológico entre el mismo y la provincia de Salta."
+  },
+
+  "Buy": {
+    "title": "Comenzá a hacer el cambio",
+    "btn": "Comprar",
+    "buy-now-title-1": "COMPRAR UN TOKEN",
+    "buy-now-title-2": "INVERTÍ EN EL FUTURO DEL PLANETA",
+    "token-alert-title": "UN TOKEN = UN FUTURO MEJOR",
+    "token-alert-text": "Al comprar un token proteges un área del bosque con toda la flora y fauna que vive en ella."
+  },
+
+  "Team": {
+    "text-dante": "Economista de empresas especializado en gestión de blockchain. Experiencia en cripto desde 2015",
+    "text-matteo": "Estudiante de Lic. en Gestión Ambiental. +10 años de experiencia en proyectos de conservación ambiental",
+    "text-franco": "Fundador de BlackBeaver, agencia de Marketing y Software. Fundador de Finguru, medio digital",
+    "text-emiliano": "Ex Vice Presidente del Servicio de Parques Nacionales de Argentina. Director General del Banco de Bosques: ONG con más de 150.000 hectáreas salvadas. Asesor de Greenpeace.",
+    "text-gustavo": "Asesor de BID bank tokenomics y cambio climático. Director estratégico de Chronos: Criptobilletera B2B",
+    "text-guido": "Desarrollador Fullstack +10 años de experiencia. Fundador de la agencia de software Edeon Labs",
+    "text-constanza": "Desarrolladora Frontend +2 años de experiencia. Background académico en ingeniería química y biotecnología",
+    "text-nicolas": "+3 años de experiencia. FullStack Web Developer. Estudios en Lic. en Sistemas. Proyectos personales y open source",
+    "text-malena": "Diseño gráfico, industrial y audio-visual. +2 años de experiencia"
+  },
+
+  "Login": {
+    "login-title": "Tomá acción y salvá bosques de ser talados",
+    "login-form-title": "Inicia sesión",
+    "email-field": "Correo Electrónico",
+    "password-field": "Contraseña",
+    "login-btn": "Iniciar sesión",
+    "forgot-password": "¿Olvidaste tu contraseña?",
+    "login-no-account": "¿No tenés una cuenta?",
+    "login-failed": "Correo o contraseña incorrectos",
+    "server-error": "Ocurrió un error inesperado. Por favor intente de nuevo.",
+    "login-cta": "Registrate"
+  },
+
+  "Register": {
+    "register-back": "Atrás",
+    "register-title": "Take action and preserve the environment",
+    "register-form-title": "¡Bienvenido!",
+    "firstname-field": "Nombre",
+    "lastname-field": "Apellido",
+    "company-field": "Nombre de la empresa (opcional)",
+    "country-field": "País",
+    "email-field": "Correo electrónico",
+    "password-field": "Crear contraseña",
+    "verify-password-field": "Verificar contraseña",
+    "firstname-placeholder": "Ingresá tu nombre",
+    "lastname-placeholder": "Ingresá tu apellido",
+    "company-placeholder": "Ingresá tu empresa",
+    "country-placeholder": "Seleccioná tu país",
+    "email-placeholder": "Ingresá tu correo electrónico",
+    "password-placeholder": "Elegí tu contraseña",
+    "verify-password-placeholder": "Repetí tu contraseña",
+    "required-field": "Campo obligatorio",
+    "email-invalid": "Debe ingresar una dirección de correo válida",
+    "email-exists": "Esta dirección de correo ya está registrada",
+    "password-length": "La contraseña es demasiado corta",
+    "password-no-match": "Las contraseñas no coinciden",
+    "must-accept-tc": "Debe aceptar los Términos y Condiciones para registrarse",
+    "server-error": "Ocurrió un error inesperado. Por favor intente de nuevo.",
+    "register-btn": "Registrarse",
+    "terms-and-conditions": "Acepto los Términos y Condiciones"
+  },
+
+  "PostRegister": {
+    "title": "¡Gracias por sumarte a la lista de espera!",
+    "message": "Fuiste registrado exitosamente. ¡Estaremos en contacto pronto!",
+    "back-link": "Volver al inicio"
+  }
+}
