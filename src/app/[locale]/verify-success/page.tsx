@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 
 
@@ -14,8 +14,10 @@ import Rotating_Text from "../components/ui/Rotating_Text";
 const VerifySuccess = () => {
   const t = useTranslations("VerifySuccess");
   const searchParams = useSearchParams();
+  const router = useRouter();
   const [verificationStatus, setVerificationStatus] = useState<"loading" | "success" | "error">("loading");
   const [errorMessage, setErrorMessage] = useState("");
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
     const verifyEmail = async () => {
@@ -33,22 +35,52 @@ const VerifySuccess = () => {
 
       console.log("Starting email verification...");
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL || "https://backend-render-main.onrender.com"}/verify?token=${token}`, {
-          method: "GET",
+        // Usar POST que siempre devuelve JSON
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL || "https://backend-render-7vh2.onrender.com"}/verify-email`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
           credentials: "include",
+          body: JSON.stringify({ token }),
         });
 
         console.log("Response status:", response.status);
         console.log("Response ok:", response.ok);
 
-        if (response.ok) {
+        const data = await response.json();
+        console.log("Response data:", data);
+
+        if (data.success) {
           console.log("Verification successful");
+
+          // Si hay session_token, establecer la sesión
+          if (data.session_token) {
+            console.log("Setting session from token...");
+            const sessionResponse = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL || "https://backend-render-7vh2.onrender.com"}/set-session`, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              credentials: "include",
+              body: JSON.stringify({ session_token: data.session_token }),
+            });
+
+            if (sessionResponse.ok) {
+              console.log("Session established - user is now logged in!");
+              setIsLoggedIn(true);
+              // Redirigir al dashboard después de 2 segundos
+              setTimeout(() => {
+                router.push("/dashboard");
+              }, 2000);
+            }
+          }
+
           setVerificationStatus("success");
         } else {
-          const errorData = await response.json();
-          console.log("Verification failed:", errorData);
+          console.log("Verification failed:", data);
           setVerificationStatus("error");
-          setErrorMessage(errorData.message || "Verification failed");
+          setErrorMessage(data.message || "Verification failed");
         }
       } catch (error) {
         console.error("Email verification error:", error);
@@ -120,21 +152,28 @@ const VerifySuccess = () => {
                 <h1 className="text-3xl font-bold text-white mb-4 tracking-tight">
                   {t("title")}
                 </h1>
-                
+
                 <p className="text-lg text-white/90 mb-6">
                   {t("subtitle")}
                 </p>
-                
+
                 <p className="text-base text-white/80 mb-8 leading-relaxed">
                   {t("description")}
                 </p>
 
-                <Link
-                  href="/login"
-                  className="w-full max-w-xs py-3 px-6 text-base font-medium bg-teal-accent text-white rounded-lg hover:bg-teal-accent/80 transition-colors text-center"
-                >
-                  {t("loginButton")}
-                </Link>
+                {isLoggedIn ? (
+                  <div className="flex flex-col items-center">
+                    <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white mb-4"></div>
+                    <p className="text-white/80">Redirecting to dashboard...</p>
+                  </div>
+                ) : (
+                  <Link
+                    href="/login"
+                    className="w-full max-w-xs py-3 px-6 text-base font-medium bg-teal-accent text-white rounded-lg hover:bg-teal-accent/80 transition-colors text-center"
+                  >
+                    {t("loginButton")}
+                  </Link>
+                )}
               </>
             )}
 
